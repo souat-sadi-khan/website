@@ -62,7 +62,7 @@ $(document).ready(function () {
   });
 
   var interestSwiper = new Swiper(".interestSwiper", {
-    slidesPerView: 4,
+    slidesPerView: 2,
     spaceBetween: 30,
     freeMode: false,
     autoplay: true,
@@ -83,36 +83,36 @@ $(document).ready(function () {
   });
 
   // mixitup
-  var containerEl = document.querySelector('.auction-filter');
-  var mixer = mixitup(containerEl);
+  // var containerEl = document.querySelector('.auction-filter');
+  // var mixer = mixitup(containerEl);
 });
 
-const HOURHAND = document.querySelector("#hour");
-const MINUTEHAND = document.querySelector("#minute");
-const SECONDHAND = document.querySelector("#second");
+// const HOURHAND = document.querySelector("#hour");
+// const MINUTEHAND = document.querySelector("#minute");
+// const SECONDHAND = document.querySelector("#second");
 
-var date = new Date();
-let hr = date.getHours();
-let min = date.getMinutes();
-let sec = date.getSeconds();
+// var date = new Date();
+// let hr = date.getHours();
+// let min = date.getMinutes();
+// let sec = date.getSeconds();
 
-let hrPosition = (hr*360/12) + (min*(360/60)/12);
-let minPosition = (min*360/60 )+ (sec*(360/60)/60);
-let secPosition = sec*360/60;
+// let hrPosition = (hr*360/12) + (min*(360/60)/12);
+// let minPosition = (min*360/60 )+ (sec*(360/60)/60);
+// let secPosition = sec*360/60;
 
-function runThetime() {
-  hrPosition = hrPosition+(3/360);
-  minPosition = minPosition+(6/60);
-  secPosition = secPosition+(6);
+// function runThetime() {
+//   hrPosition = hrPosition+(3/360);
+//   minPosition = minPosition+(6/60);
+//   secPosition = secPosition+(6);
 
-  HOURHAND.style.transform = "rotate(" + hrPosition + "deg)";
-  MINUTEHAND.style.transform = "rotate(" + minPosition + "deg)";
-  SECONDHAND.style.transform = "rotate(" + secPosition + "deg)";
-}
+//   HOURHAND.style.transform = "rotate(" + hrPosition + "deg)";
+//   MINUTEHAND.style.transform = "rotate(" + minPosition + "deg)";
+//   SECONDHAND.style.transform = "rotate(" + secPosition + "deg)";
+// }
 
-var interval = setInterval(runThetime, 1000);
+// var interval = setInterval(runThetime, 1000);
 
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-})  
+// var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+// var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+//   return new bootstrap.Tooltip(tooltipTriggerEl)
+// })  
