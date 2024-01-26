@@ -44,93 +44,6 @@
 
 <body>
 
-    <style>
-        .support-palestine,
-        .support-palestine:visited {
-            position: absolute;
-            left: 0;
-            top: 0;
-            right: 0;
-            background: 0e1630;
-            display: flex;
-            justify-content: center;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            z-index: 10000;
-            text-decoration: none;
-            font-family: arial;
-        }
-
-        .support-palestine:hover,
-        .support-palestine:active {
-            background: black;
-            display: flex;
-            background: rgb(80, 80, 80);
-            text-decoration: none;
-        }
-
-        .support-palestine__flag {
-            margin-right: 10px;
-        }
-
-        .support-palestine__label {
-            color: white;
-            font-size: 12px;
-            line-height: 24px;
-        }
-
-        .background {
-            background: #0e1630;
-            height: 21px;
-        }
-
-        .top {
-            background: black;
-            width: 40px;
-            height: 8px;
-            z-index: 1;
-        }
-
-        .middle {
-            background: white;
-            width: 100%;
-            height: 8px;
-            z-index: 1;
-        }
-
-        .triangle {
-            background: auto;
-            border-top: 12px solid transparent;
-            border-bottom: 12px solid transparent;
-            border-left: 20px solid red;
-            z-index: 2;
-            position: relative;
-            top: -16px;
-            left: 0;
-        }
-    </style>
-
-    <a
-    class="support-palestine"
-    href="javascript:;"
-    rel="nofollow noopener"
-    title="Keep supporting palestine"
-    >
-        <div
-            class="support-palestine__flag"
-            role="img"
-            aria-label="Flag of palestine"
-        >
-            <div class="background">
-            <div class="top"></div>
-            <div class="middle"></div>
-            <div class="triangle"></div>
-            </div>
-        </div>
-
-        <div class="support-palestine__label">Donate to support Palestine</div>
-    </a>
-    
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container">
@@ -144,11 +57,11 @@
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html" data-value="about-me">
-                            about me
+                            About me
                         </a>
                     </li>
                     <li class="nav-item">
@@ -157,8 +70,8 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">
-                            Projects
+                        <a class="nav-link" href="portfolio.html">
+                            Portfolio
                         </a>
                     </li>
                     <li class="nav-item">
@@ -274,35 +187,30 @@
                 <div class="col-lg-5">
                     <div class="heading-title">
                         <h3>About Me</h3>
-                        <h2>Hi, Im here <br> to help your next project</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy
-                            text ever since the 1500s, when an .
-                        </p>
+                        <h2>Experienced  Software Engineer Ready to Innovate</h2>
+                        <p>As a seasoned full stack web developer and software engineer with over 5 years of experience, I have honed my skills in various technological arenas. From front-end development using HTML, CSS, and JavaScript to back-end work with languages like Python, Node.Js, or PHP, I am well-versed in the entire web development process. My expertise also extends to database management, API integration, and ensuring responsive design for seamless user experiences. With a passion for innovation and a drive to stay updated with the latest technologies, I am committed to creating dynamic and efficient solutions that meet the needs of modern businesses and users.</p>
                     </div>
 
-                    <ul class="row row-cols-md-2 row-cols-2 info">
-                        <li><i class="fi fi-rr-check"></i> Problem Solving</li>
-                        <li><i class="fi fi-rr-check"></i> Creative Idea</li>
-                        <li><i class="fi fi-rr-check"></i> Search A Lot</li>
-                        <li><i class="fi fi-rr-check"></i> High quality</li>
+                    <ul class="row row-cols-md-1 row-cols-1 info">
+                        <li><i class="fi fi-rr-check"></i> Effective communication skills</li>
+                        <li><i class="fi fi-rr-check"></i> Self-organized and adept at independent work</li>
+                        <li><i class="fi fi-rr-check"></i> Strong time management for increased efficiency</li>
+                        <li><i class="fi fi-rr-check"></i> Motivated to tackle new challenges</li>
+                        <li><i class="fi fi-rr-check"></i> Receptive to clear and constructive criticism</li>
                     </ul>
                 </div>
 
-                <!-- start hero-content -->
                 <div class="col-lg-6 hero-content">
                     <div class="row align-items-center justify-content-between">
-                        <img src="assets/images/about-me/image-about-empty.png" alt="image-about">
+                        <img src="assets/images/me.jpg" alt="image-about">
                     </div>
                 </div>
-                <!-- end hero-content -->
-
             </div>
         </div>
     </section>
     <!-- end about-me -->
 
-    <!-- start portfolio -->
+    <!-- Portfolio -->
     <section class="section portfolio has-style-01">
 
         <div class="shape">
@@ -312,153 +220,146 @@
 
         <div class="container">
 
-            <!-- start heading-title -->
             <div class="row align-items-center justify-content-between">
-                <div class="col-lg-7 col-md-6 col-12 d-flex">
+                <div class="col-lg-12 col-md-12 col-12 d-flex">
                     <div class="heading-title">
                         <h3>My Portfolio</h3>
                         <h2>Some of my distinguished works</h2>
                     </div>
                 </div>
-
-                <div class="col-lg-5 col-md-6 col-12 controls">
-                    <button type="button" data-filter="all">All topics</button>
-                    <button type="button" data-filter=".mobile">Mobile App</button>
-                    <button type="button" data-filter=".web">Web Design</button>
-                </div>
             </div>
-            <!-- end heading-title -->
                 
-            <!-- start item -->
             <div class="row auction-filter justify-content-center">
 
-                <!-- start item-card -->
+                <!-- item -->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 mix web">
                     <div class="item-card">
-                        <h4><a class="title-link" href="#">Web UI-UX Design</a></h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's s
-                        </p>
+                        <h4>
+                            <a class="title-link" href="portfolio/savings-and-credit-banking-system.html">
+                                Micro Credit Banking System
+                            </a>
+                        </h4>
+                        <p>This Savings and Credit Cooperative (SACCO) or Savings and Credit Banking System is for financial institution that aims to promote savings and provide them with access...</p>
                         <ul class="tag-link">
-                            <li><a href="#">web UI-UX</a></li>
-                            <li><a href="#">UI-UX</a></li>
-                            <li><a href="#">web</a></li>
+                            <li><a href="javascript:;">PHP 7.4</a></li>
+                            <li><a href="javascript:;">Laravel</a></li>
+                            <li><a href="javascript:;">MySQL</a></li>
                         </ul>
                         <div class="item-image">
-                            <a class="link-image" href="#"><i class="fi fi-rr-arrow-small-right"></i></a>
-                            <img src="assets/images/portofolio/image-app1.png" alt="imagePortofolio">
+                            <a class="link-image" href="portfolio/savings-and-credit-banking-system.html">
+                                <i class="fi fi-rr-arrow-small-right"></i>
+                            </a>
+                            <img src="assets/images/portflio/banking-banner.png" alt="Savings and Credit Banking System">
                         </div>
                     </div>
                 </div>
-                <!-- end item-card -->
 
-                <!-- start item-card -->
+                <!-- item -->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 mix mobile">
                     <div class="item-card">
-                        <h4><a class="title-link" href="#">Web UI-UX Design</a></h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's s
-                        </p>
+                        <h4>
+                            <a class="title-link" href="portfolio/shoe-company-management-system.html">
+                                Shoe Company with E-commerce
+                            </a>
+                        </h4>
+                        <p>This shoe company management system with e-commerce is a digital platform that enables a footwear brand to efficiently manage its operations and sell products online. </p>
                         <ul class="tag-link">
-                            <li><a href="#">web UI-UX</a></li>
-                            <li><a href="#">UI-UX</a></li>
-                            <li><a href="#">web</a></li>
+                            <li><a href="javascript:;">PHP 7.4</a></li>
+                            <li><a href="javascript:;">Laravel</a></li>
+                            <li><a href="javascript:;">MySQL</a></li>
                         </ul>
                         <div class="item-image">
-                            <a class="link-image" href="#"><i class="fi fi-rr-arrow-small-right"></i></a>
-                            <img src="assets/images/portofolio/image-app2.png" alt="imagePortofolio">
+                            <a class="link-image" href="portfolio/shoe-company-management-system.html">
+                                <i class="fi fi-rr-arrow-small-right"></i>
+                            </a>
+                            <img src="assets/images/portflio/decent.png" alt="Shoe Company with E-commerce management system">
                         </div>
                     </div>
                 </div>
-                <!-- end item-card -->
 
-                <!-- start item-card -->
+                <!-- item -->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 mix mobile">
                     <div class="item-card">
-                        <h4><a class="title-link" href="#">Web UI-UX Design</a></h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's s
-                        </p>
+                        <h4>
+                            <a class="title-link" href="portfolio/inventory-management-system.html">
+                                Inventory management system
+                            </a>
+                        </h4>
+                        <p>This inventory management system is a software application designed to help businesses track and manage their inventory levels. It enables organizations to optimize...</p>
                         <ul class="tag-link">
-                            <li><a href="#">web UI-UX</a></li>
-                            <li><a href="#">UI-UX</a></li>
-                            <li><a href="#">web</a></li>
+                            <li><a href="javascript:;">PHP 7.4</a></li>
+                            <li><a href="javascript:;">Laravel</a></li>
+                            <li><a href="javascript:;">MySQL</a></li>
                         </ul>
                         <div class="item-image">
                             <a class="link-image" href="#"><i class="fi fi-rr-arrow-small-right"></i></a>
-                            <img src="assets/images/portofolio/image-app3.png" alt="imagePortofolio">
+                            <img src="assets/images/portflio/inventory.png" alt="imagePortofolio">
                         </div>
                     </div>
                 </div>
-                <!-- end item-card -->
 
-                <!-- start item-card -->
+                <!-- item -->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 mix web">
                     <div class="item-card">
-                        <h4><a class="title-link" href="#">Web UI-UX Design</a></h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's s
-                        </p>
+                        <h4>
+                            <a class="title-link" href="portfolio/payroll-and-hr-management.html">
+                                Payroll & HR Manager
+                            </a>
+                        </h4>
+                        <p>Payroll & HR Manager is for professional responsible for overseeing the payroll and human resources functions of an organization. This role involves managing the entire payroll process...</p>
                         <ul class="tag-link">
-                            <li><a href="#">web UI-UX</a></li>
-                            <li><a href="#">UI-UX</a></li>
-                            <li><a href="#">web</a></li>
+                            <li><a href="javascript:;">PHP 7.4</a></li>
+                            <li><a href="javascript:;">Laravel</a></li>
+                            <li><a href="javascript:;">MySQL</a></li>
                         </ul>
                         <div class="item-image">
-                            <a class="link-image" href="#"><i class="fi fi-rr-arrow-small-right"></i></a>
-                            <img src="assets/images/portofolio/image-app4.png" alt="imagePortofolio">
+                            <a class="link-image" href="portfolio/payroll-and-hr-management.html">
+                                <i class="fi fi-rr-arrow-small-right"></i>
+                            </a>
+                            <img src="assets/images/portflio/payroll.png" alt="Payroll & HR Manager">
                         </div>
                     </div>
                 </div>
-                <!-- end item-card -->
 
-                <!-- start item-card -->
+                <!-- item -->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 mix mobile">
                     <div class="item-card">
-                        <h4><a class="title-link" href="#">Web UI-UX Design</a></h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's s
-                        </p>
+                        <h4><a class="title-link" href="portfolio/point-of-sale-system.html">Point of Sale (POS)</a></h4>
+                        <p>This point of sale (POS) system is a computerized network that enables businesses to process sales transactions, manage inventory, and facilitate customer interactions.</p>
                         <ul class="tag-link">
-                            <li><a href="#">web UI-UX</a></li>
-                            <li><a href="#">UI-UX</a></li>
-                            <li><a href="#">web</a></li>
+                            <li><a href="javascript:;">PHP 7.4</a></li>
+                            <li><a href="javascript:;">Laravel</a></li>
+                            <li><a href="javascript:;">MySQL</a></li>
                         </ul>
                         <div class="item-image">
-                            <a class="link-image" href="#"><i class="fi fi-rr-arrow-small-right"></i></a>
-                            <img src="assets/images/portofolio/image-app5.png" alt="imagePortofolio">
+                            <a class="link-image" href="portfolio/point-of-sale-system.html"><i class="fi fi-rr-arrow-small-right"></i></a>
+                            <img src="assets/images/portflio/pos.png" alt="Point of Sale System">
                         </div>
                     </div>
                 </div>
-                <!-- end item-card -->
 
-                <!-- start item-card -->
+                <!-- item -->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 mix web">
                     <div class="item-card">
-                        <h4><a class="title-link" href="#">Web UI-UX Design</a></h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's s
-                        </p>
+                        <h4><a class="title-link" href="portfolio/email-automation-manager.html">Automate Wave</a></h4>
+                        <p>An Email Campaign Manager is a marketing professional responsible for planning, executing, and measuring email marketing campaigns. This role involves working with various departments...</p>
                         <ul class="tag-link">
-                            <li><a href="#">web UI-UX</a></li>
-                            <li><a href="#">UI-UX</a></li>
-                            <li><a href="#">web</a></li>
+                            <li><a href="javascript:;">PHP 7.4</a></li>
+                            <li><a href="javascript:;">Codeigniter 3</a></li>
+                            <li><a href="javascript:;">MySQL</a></li>
                         </ul>
                         <div class="item-image">
-                            <a class="link-image" href="#"><i class="fi fi-rr-arrow-small-right"></i></a>
-                            <img src="assets/images/portofolio/image-app1.png" alt="imagePortofolio">
+                            <a class="link-image" href="portfolio/email-automation-manager.html">
+                                <i class="fi fi-rr-arrow-small-right"></i>
+                            </a>
+                            <img src="assets/images/portflio/automation.png" alt="Email Automation & Campaign Manager">
                         </div>
                     </div>
                 </div>
-                <!-- end item-card -->
 
             </div>
-            <!-- end item -->
-
-            
         </div>
     </section>
-    <!-- end portfolio -->
 
     <!-- start testimonials -->
     <section class="section testimonials has-style-01">
@@ -644,5 +545,36 @@
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/fancybox.umd.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        const HOURHAND = document.querySelector("#hour");
+        const MINUTEHAND = document.querySelector("#minute");
+        const SECONDHAND = document.querySelector("#second");
+
+        var date = new Date();
+        let hr = date.getHours();
+        let min = date.getMinutes();
+        let sec = date.getSeconds();
+
+        let hrPosition = (hr*360/12) + (min*(360/60)/12);
+        let minPosition = (min*360/60 )+ (sec*(360/60)/60);
+        let secPosition = sec*360/60;
+
+        function runThetime() {
+          hrPosition = hrPosition+(3/360);
+          minPosition = minPosition+(6/60);
+          secPosition = secPosition+(6);
+
+          HOURHAND.style.transform = "rotate(" + hrPosition + "deg)";
+          MINUTEHAND.style.transform = "rotate(" + minPosition + "deg)";
+          SECONDHAND.style.transform = "rotate(" + secPosition + "deg)";
+        }
+
+        var interval = setInterval(runThetime, 1000);
+
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })  
+    </script>
 </body>
 </html>
